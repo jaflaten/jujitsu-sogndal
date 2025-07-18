@@ -2,7 +2,7 @@
 date = '2025-07-14T08:55:57+02:00'
 draft = false
 title = 'Membership'
-weight = 3
+weight = 4
 +++
 
 We offer **two free trial sessions**. After that, you're required to join the club.  

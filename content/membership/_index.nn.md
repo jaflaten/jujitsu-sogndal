@@ -2,7 +2,7 @@
 date = '2025-07-14T08:55:57+02:00'
 draft = false
 title = 'Medlemsskap'
-weight = 3
+weight = 4
 +++
 
 ## Medlemskap
