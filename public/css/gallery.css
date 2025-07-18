@@ -1,0 +1,29 @@
+/* Ensure the gallery container has proper overflow handling */
+#instagram-gallery {
+    overflow-y: hidden !important;
+    min-height: 500px; /* Adjust based on your embed height */
+}
+
+/* Force Instagram embeds to respect your container width */
+#instagram-gallery > div {
+    flex: 0 0 320px !important; /* Fixed width, no grow/shrink */
+    width: 320px !important;
+    max-width: 320px !important;
+    min-width: 320px !important;
+}
+
+/* Target Instagram iframes specifically */
+#instagram-gallery iframe {
+    width: 320px !important;
+    max-width: 320px !important;
+    height: 400px !important;
+    max-height: 400px !important;
+}
+
+/* Target Instagram blockquotes */
+#instagram-gallery blockquote.instagram-media {
+    width: 320px !important;
+    max-width: 320px !important;
+    min-width: 320px !important;
+    margin: 0 !important;
+}

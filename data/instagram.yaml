@@ -1,0 +1,14 @@
+
+instagram:
+  username: jujitsusogndal
+  image: /images/logo_knot.png
+  posts:
+    - title: Post 1
+      img: /images/logo_knot.png
+      url: https://www.instagram.com/p/DLsgNWlKqCm/
+    - title: Post 2
+      img: /images/logo_knot.png
+      url: https://www.instagram.com/p/DLcr_5vK_bV/
+    - title: Post 3
+      img: /images/logo_knot.png
+      url: https://www.vg.no

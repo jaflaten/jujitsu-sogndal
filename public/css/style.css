@@ -1,0 +1,127 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 4rem 1rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.image-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.image-grid img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+
+
+.instagram-gallery-container {
+    position: relative;
+    margin: 2rem 0;
+    max-width: 100%;
+}
+
+.instagram-gallery {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    padding: 1rem 0;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.instagram-gallery::-webkit-scrollbar {
+    display: none; /* Chrome/Safari */
+}
+
+.instagram-post {
+    flex: 0 0 auto;
+    width: 320px;
+    max-width: 320px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.instagram-post:hover {
+    transform: translateY(-2px);
+}
+
+/* Navigation arrows */
+.gallery-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    z-index: 10;
+    opacity: 0.7;
+}
+
+.gallery-nav:hover {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.gallery-nav-left {
+    left: 10px;
+}
+
+.gallery-nav-right {
+    right: 10px;
+}
+
+.gallery-nav svg {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .instagram-post {
+        width: 280px;
+        max-width: 280px;
+    }
+    
+    .gallery-nav {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .gallery-nav svg {
+        width: 16px;
+        height: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .instagram-post {
+        width: 260px;
+        max-width: 260px;
+    }
+    
+    .instagram-gallery {
+        gap: 0.5rem;
+    }
+}
