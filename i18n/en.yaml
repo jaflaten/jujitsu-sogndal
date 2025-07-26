@@ -1,0 +1,10 @@
+- id: contact
+  translation: Contact
+- id: address
+  translation: Address
+- id: email
+  translation: E-mail
+- id: phone
+  translation: Phone
+- id: copyright
+  translation: "© {{ .Year }} Sogndal Jujitsu Club. Designed by Flaten Digital."

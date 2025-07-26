@@ -1,13 +1,13 @@
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
     <!-- Contact Info -->
     <div>
-        <h2 class="text-xl font-semibold mb-4">Kontakt</h2>
+        <h2 class="text-xl font-semibold mb-4">{{ i18n "contact"}}</h2>
         <ul class="space-y-2">
             <li>
-                E-post: <a href="mailto:jujitsu.sogndal@gmail.com" class="underline">jujitsu.sogndal@gmail.com</a>
+                {{ i18n "email" }}: <a href="mailto:jujitsu.sogndal@gmail.com" class="underline">jujitsu.sogndal@gmail.com</a>
             </li>
             <li>
-                Telefon: 46 81 14 70
+                {{ i18n "phone" }}: 46 81 14 70
             </li>
             <li>
                 Instagram: <a href="https://instagram.com/jujitsusogndal" class="underline">@jujitsusogndal</a>
@@ -20,7 +20,7 @@
 
     <!-- Address -->
     <div>
-        <h2 class="text-xl font-semibold mb-4">Adresse</h2>
+        <h2 class="text-xl font-semibold mb-4">{{ i18n "address" }}</h2>
         <p>
             Trudvang Skule c/o Ju Jitsu Sogndal<br>
             Skulevegen 5<br>
@@ -31,6 +31,5 @@
 
 <!-- Bottom section: copyright -->
 <div class="text-center text-sm border-t border-gray-700 pt-4">
-    &copy; {{ now.Year }} Ju Jitsu Sogndal. Designet av Flaten Digital.
-</div>
+    {{ i18n "copyright" (dict "Year" (now.Format "2006")) }}
 </div>
