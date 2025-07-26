@@ -4,6 +4,7 @@ draft: false
 title: 'Ju Jitsu Sogndal'
 weight: 0
 wallpaper: "/images/wallpaper1.png"
+logo: "/images/logo_only.png"
 ---
 
 Self defense with confidence!

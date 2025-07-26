@@ -1,5 +1,14 @@
 <div class="flex items-center justify-between flex-wrap gap-2">
-    <h2 class="text-3xl font-semibold">{{.Site.Title}}</h2>
+    <div class="flex items-center space-x-4">
+        {{ with .Params.logo }}
+        <a href="{{ site.Home.Permalink }}">
+            <img src="{{ . | absURL }}" alt="{{ $.Title }}" class="h-14 w-auto">
+        </a>
+        {{ end }}
+        <h2 class="text-3xl font-semibold">
+            <a href="{{ site.Home.Permalink }}">{{ $.Title }}</a>
+        </h2>
+    </div>
 
     <div class="flex gap-2">
         {{ with .Translations }}
