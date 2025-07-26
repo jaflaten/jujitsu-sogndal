@@ -1,20 +1,23 @@
 {{ define "main"}}
 
+    {{ with .Params.wallpaper }}
     <div
-            class="relative bg-cover bg-center w-full h-[500px] md:h-[500px]"
-            style="background-image: url('https://picsum.photos/1200/500');"
+            class="relative bg-cover bg-center w-full h-[500px] md:h-[800px]"
+            style="background-image: url('{{ . | absURL }}');"
     >
-        <div class="absolute inset-0 bg-black bg-opacity-40"></div> <!-- Optional dark overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
 
         <div class="relative z-10 flex items-center justify-center h-full text-center px-4">
             <div class="text-white max-w-3xl">
-                <h1 class="text-3xl md:text-5xl font-bold mb-4">{{ .Title }}</h1>
+                <h1 class="text-3xl md:text-5xl font-bold mb-4">{{ $.Title }}</h1>
                 <div class="text-lg md:text-xl">
-                    {{ .Content }}
+                    {{ $.Content }}
                 </div>
             </div>
         </div>
     </div>
+    {{ end }}
+
 
 
 <!-- <div class="grid grid-cols-1 lg:grid-cols-2"> -->
