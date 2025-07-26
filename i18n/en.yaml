@@ -6,5 +6,9 @@
   translation: E-mail
 - id: phone
   translation: Phone
+- id: gallery
+  translation: Gallery
+- id: follow_us
+  translation: Follow us on Instagram
 - id: copyright
   translation: "© {{ .Year }} Sogndal Jujitsu Club. Designed by Flaten Digital."

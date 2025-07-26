@@ -5,7 +5,11 @@ title = 'Training times'
 weight = 3
 +++
 
-We train in the gym hall at Trudvang School. Before training, we usually sign up in a group chat to see how many are coming. If it's your first time, feel free to contact us by phone, email, or Instagram first. Below you’ll find our training times:
+We train in the gym hall at Trudvang School. Before training, we usually sign up in a group chat to see how many are coming. If it's your first time, feel free to contact us by phone, email, or Instagram first. 
+
+> We will start training again in august after the summer break and we are recruiting new members!
+
+Below you’ll find our training times:
 
 | Day      | Time        |
 |----------|-------------|
@@ -18,4 +22,7 @@ We train in the gym hall at Trudvang School. Before training, we usually sign up
 
 [//]: # (| Thursday | 20:30–21:30 |)
 
-Address: Skulevegen 5, 6856 Sogndal 
+## How to find us 
+The address is *Skulevegen 5, 6856 Sogndal*. Trudvang Skule is conveniently located between AMFI Sogningen and the Doctors office, the gym hall is easily accessible with parking usually available.
+
+The entrance to the gym is in the building behind the front building on the school grounds, through the large red door on the left-hand side when the ball court is on your right.
