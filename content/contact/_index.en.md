@@ -10,7 +10,7 @@ Do you have any questions or want to join a trial session? Feel free to reach ou
 | Channel     | Contact Information                            |
 |-------------|-------------------------------------------------|
 | Email       | [jujitsu.sogndal@gmail.com](mailto:jujitsu.sogndal@gmail.com)        |
-| Phone       | 123 45 678                                      |
+| Phone       | 46 81 14 70 |
 | Instagram   | [@jujitsusogndal](https://instagram.com/jujitsusogndal)   |
 | Facebook    | [facebook.com](https://www.facebook.com/profile.php?id=100066888734517) |
 

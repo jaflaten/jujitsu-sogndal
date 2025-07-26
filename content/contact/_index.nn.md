@@ -12,6 +12,6 @@ Har du spørsmål eller ønsker å komme på en prøvetrening? Ta gjerne kontakt
 | Kanal      | Kontaktinformasjon                      |
 |------------|------------------------------------------|
 | E-post     | [jujitsu.sogndal@gmail.com](mailto:jujitsu.sogndal@gmail.com)      |
-| Telefon    | 123 45 678                               |
+| Telefon    | 46 81 14 70                              |
 | Instagram  | [@jujitsusogndal](https://instagram.com/jujitsusogndal) |
 | Facebook   | [facebook.com](https://www.facebook.com/profile.php?id=100066888734517) |
