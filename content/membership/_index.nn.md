@@ -8,9 +8,9 @@ weight = 4
 Vi tilbyr **to gratis prøvetimer**. Deretter må du melde deg inn i klubben.  
 **Medlemskontingenten** betales ved innmelding i klubben og gjelder for et helt skolesemester.
 
-| Kategori | Månedsavgift     | Merknader                        |
-|----------|------------------|----------------------------------|
-| Voksen   | 1000 kr/semester |                   |
-| Student  | 850 kr/semester  |                   |
+| Kategori | Månedsavgift     | 
+|----------|------------------|
+| Voksen   | 1000 kr/semester |
+| Student  | 850 kr/semester  |
 
 

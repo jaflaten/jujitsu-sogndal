@@ -6,7 +6,7 @@
         {{ range . }}
         <a href="{{ .Permalink }}" class="hover:underline text-lg">
             <div class="inline-flex items-center">
-                {{.Language.Params.flag | safeHTML}}
+                {{ partial (print "flags/" .Lang ".svg") . }}
                 <label class="block pl-2 cursor-pointer">{{.Language.LanguageName }}</label>
             </div>
         </a>

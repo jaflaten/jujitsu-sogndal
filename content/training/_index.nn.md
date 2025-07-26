@@ -6,7 +6,7 @@ weight = 2
 +++
 
 
-Vi trener i gymsalen på Trudvang skule. Før trening pleier vi å melde oss på i en gruppechat for å sjå kor mange som kjem. Om det er din første gang så ta gjerne kontakt på telefon, e-post eller instagram først. 
+Vi trener i gymsalen på Trudvang skule. Før trening pleier vi å melde oss på i en gruppechat for å sjå kor mange som kjem. Om det er din første gang så ta gjerne kontakt på telefon, e-post eller Instagram først. 
 
 > Vi startar opp att med trening i august etter sommarferien, og vi rekrutterer nye medlemmar!
 
@@ -17,7 +17,7 @@ Under finn du treningstidene våre:
 | Onsdag     | 20:30–21:30 |
 
 
-## Korleis finne fram
+### Korleis finne fram
 
 Adressa er *Skulevegen 5, 6856 Sogndal*. Trudvang skule ligg praktisk til mellom AMFI Sogningen og legekontoret. Gymsalen er lett å kome til, med parkering som oftast tilgjengeleg.
 

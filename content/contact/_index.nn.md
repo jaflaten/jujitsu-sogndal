@@ -1,11 +1,9 @@
 +++
 date = '2025-07-14T08:55:58+02:00'
 draft = false
-title = 'Kontaktinfo'
+title = 'Kontakt oss'
 weight = 9
 +++
-
-## Kontakt oss
 
 Har du spørsmål eller ønsker å komme på en prøvetrening? Ta gjerne kontakt med oss!
 

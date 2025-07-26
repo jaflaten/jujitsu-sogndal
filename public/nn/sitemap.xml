@@ -2,93 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/nn/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2025-07-14T08:55:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="http://localhost:1313/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nn"
                 href="http://localhost:1313/about/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nn"
-                href="http://localhost:1313/nn/about/"
-                />
   </url><url>
-    <loc>http://localhost:1313/nn/training/</loc>
+    <loc>http://localhost:1313/training/</loc>
     <lastmod>2025-07-14T08:55:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="http://localhost:1313/en/training/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nn"
                 href="http://localhost:1313/training/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nn"
-                href="http://localhost:1313/nn/training/"
-                />
   </url><url>
-    <loc>http://localhost:1313/nn/membership/</loc>
+    <loc>http://localhost:1313/membership/</loc>
     <lastmod>2025-07-14T08:55:57+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/membership/"
+                href="http://localhost:1313/en/membership/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nn"
-                href="http://localhost:1313/nn/membership/"
+                href="http://localhost:1313/membership/"
                 />
   </url><url>
-    <loc>http://localhost:1313/nn/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
     <lastmod>2025-07-14T08:55:58+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/contact/"
+                href="http://localhost:1313/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nn"
-                href="http://localhost:1313/nn/contact/"
+                href="http://localhost:1313/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/nn/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2025-07-14T08:55:59+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="http://localhost:1313/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nn"
                 href="http://localhost:1313/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nn"
-                href="http://localhost:1313/nn/"
-                />
   </url><url>
-    <loc>http://localhost:1313/nn/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
+                href="http://localhost:1313/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nn"
                 href="http://localhost:1313/categories/"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nn"
-                href="http://localhost:1313/nn/categories/"
-                />
   </url><url>
-    <loc>http://localhost:1313/nn/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nn"
-                href="http://localhost:1313/nn/tags/"
+                href="http://localhost:1313/tags/"
                 />
   </url>
 </urlset>
