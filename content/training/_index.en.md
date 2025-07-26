@@ -16,6 +16,8 @@ Below you’ll find our training times:
 | Tuesday    | 20:00–21:30 |
 | Wednesday     | 20:30–21:30 |
 
+*NB: Updated training times will be announced in early August*
+
 [//]: # (| Sunday   | 18:00–19:30 |)
 
 [//]: # (| Tuesday  | 20:00–21:30 |)

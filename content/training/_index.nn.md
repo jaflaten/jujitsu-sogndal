@@ -16,6 +16,7 @@ Under finn du treningstidene våre:
 | Tirsdag    | 20:00–21:30 |
 | Onsdag     | 20:30–21:30 |
 
+*NB: Oppdaterte treningstider kjem tidlig i august*
 
 ### Korleis finne fram
 
