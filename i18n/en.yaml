@@ -11,6 +11,6 @@
 - id: follow_us
   translation: Follow us on Instagram
 - id: follow_fb
-  translation: and like us on Facebook
+  translation: and like us on
 - id: copyright
   translation: "© {{ .Year }} Sogndal Jujitsu Club. Designed by Flaten Digital."
