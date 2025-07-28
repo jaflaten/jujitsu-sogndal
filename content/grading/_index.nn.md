@@ -6,7 +6,7 @@ weight = 10
 +++
 
 
-Graderingsystemet vårt er basert på det nasjonale graderingssystemet til Norges Ju Jitsu Forbund. [Basisteknikkar](https://jjnmedia.no/syllabus/senior-pensum/basisteknikker) og -prinsipp er felles for alle graderingsnivåer og det er viktig at du lærer deg desse godt. Graderingar foregår på slutten av eit semester for dei som har oppnådd kravene for å bli vurdert. Det er viktig at du har trent jevnlig gjennom semesteret for å kunne bli vurdert til gradering. 
+Graderingsystemet vårt er basert på det nasjonale graderingssystemet til Ju Jitsu Norge (JJN). [Basisteknikkar](https://jjnmedia.no/syllabus/senior-pensum/basisteknikker) og -prinsipp er frå JJN og er felles for alle graderingsnivåer og det er viktig at du lærer deg desse godt. Graderingar foregår på slutten av eit semester for dei som har oppnådd kravene for å bli vurdert. Det er viktig at du har trent jevnlig gjennom semesteret for å kunne bli vurdert til gradering. 
 
 Alle starter som kvitt belte og kan gradere seg opp til svart belte. Å nå svart belte krev år med jamn trening, dedikasjon og djup forståing av både teknikk og filosofi. Gradene er som følgjer:
 

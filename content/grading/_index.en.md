@@ -5,7 +5,7 @@ title = 'Grading'
 weight = 10
 +++
 
-Our grading system is based on the national grading system of the Norwegian Ju Jitsu Federation. Basic techniques and principles are shared across all grading levels, and it is important that you learn these well. Gradings take place at the end of a semester for those who have met the requirements to be assessed. It is important that you have trained regularly throughout the semester in order to be considered for grading. 
+Our grading system is based on the national grading system of Ju Jitsu Norge (JJN). Basic techniques and principles are from JJN and are shared across all grading levels, and it is important that you learn these well. Gradings take place at the end of a semester for those who have met the requirements to be assessed. It is important that you have trained regularly throughout the semester in order to be considered for grading. 
 
 Everyone starts as a white belt and can grade up to black belt. Reaching the black belt level requires years of consistent training, dedication, and a deep understanding of both technique and philosophy. The grades are as follows:
 
