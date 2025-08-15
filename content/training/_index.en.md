@@ -11,18 +11,11 @@ We train in the gym hall at Trudvang School. Before training, we usually sign up
 
 Below you’ll find our training times:
 
-| Day      | Time        |
-|----------|-------------|
-| Tuesday    | 20:00–21:30 |
-| Wednesday     | 20:30–21:30 |
-
-*NB: Updated training times will be announced in early August*
-
-[//]: # (| Sunday   | 18:00–19:30 |)
-
-[//]: # (| Tuesday  | 20:00–21:30 |)
-
-[//]: # (| Thursday | 20:30–21:30 |)
+| Day       | Time        |
+|-----------|-------------|
+| Tuesday   | 20:00–21:30 |
+| Wednesday | 19:30–20:30 |
+| Friday    | 17:00–18:30 |
 
 ### How to find us 
 The address is *Skulevegen 5, 6856 Sogndal*. Trudvang Skule is conveniently located between AMFI Sogningen and the Doctors office, the gym hall is easily accessible with parking usually available.
