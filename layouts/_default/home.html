@@ -21,7 +21,7 @@
 
 
 <!-- <div class="grid grid-cols-1 lg:grid-cols-2"> -->
-    {{ range .Site.Sections.ByWeight }}
+    {{ range $index, $section := .Site.Sections.ByWeight }}
     <div class="odd:bg-white ">
         <div class="container mx-auto px-4 max-w-prose py-16 sm:text-xl md:text-xl">
 
@@ -38,13 +38,22 @@
 
         </div>
     </div>
+    
+    <!-- Insert video section after "About" section (weight = 1) -->
+    <!-- Commented out until video is ready - uncomment when you have your training video -->
+    <!--
+    {{ if eq .Weight 1 }}
+        {{ partial "video-section.html" $ }}
+    {{ end }}
+    -->
+    
     {{ end }}
 
 <!-- </div> -->
 
     <div class="bg-white">
 
-        {{ partial "gallery.html" . }}
+        {{ partial "instagram-feed.html" . }}
 
     </div>
 

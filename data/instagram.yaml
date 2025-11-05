@@ -2,6 +2,7 @@
 instagram:
   username: jujitsusogndal
   image: /images/logo_knot_og.png
+  use_dynamic_feed: false  # Set to true to enable dynamic loading
   posts:
     - title: Post 1
       img: /images/bakkekontroll.png

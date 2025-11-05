@@ -1,0 +1,22 @@
+# Video Section Configuration
+# Choose one type: youtube, instagram, or self-hosted
+
+# OPTION 1: YouTube Video (currently active)
+type: youtube
+video_id: "dQw4w9WgXcQ"  # Replace with your YouTube video ID (the part after v= in the URL)
+caption: "Opplev energien og teknikkane i våre treningar!"
+
+# OPTION 2: Instagram Video
+# type: instagram
+# url: "https://www.instagram.com/p/DOE9hpSAu2k/"
+# caption: "Følg oss på Instagram for meir innhald frå treninga!"
+
+# OPTION 3: Self-hosted Video (uncomment to use)
+# type: self-hosted
+# video_url: "/videos/training.mp4"  # Place video file in static/videos/ folder
+# video_webm: "/videos/training.webm"  # Optional: WebM format for better browser support
+# poster: "/images/video-poster.jpg"  # Thumbnail image shown before video plays
+# autoplay: false  # true or false
+# muted: false     # Set to true if using autoplay (browsers require muted for autoplay)
+# loop: false      # true or false
+# caption: "Sjå oss i aksjon!"

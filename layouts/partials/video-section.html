@@ -1,0 +1,58 @@
+{{ with .Site.Data.video }}
+<div class="relative w-full bg-black">
+    {{ if .type }}
+        {{ if eq .type "youtube" }}
+            <!-- YouTube Embed -->
+            <div class="relative w-full" style="padding-bottom: 56.25%; /* 16:9 aspect ratio */">
+                <iframe 
+                    class="absolute top-0 left-0 w-full h-full"
+                    src="https://www.youtube.com/embed/{{ .video_id }}?rel=0&modestbranding=1&showinfo=0"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        {{ else if eq .type "instagram" }}
+            <!-- Instagram Embed -->
+            <div class="flex justify-center items-center py-8 md:py-16">
+                <blockquote 
+                    class="instagram-media" 
+                    data-instgrm-permalink="{{ .url }}"
+                    data-instgrm-version="14"
+                    style="max-width: 100%; min-width: 326px; width: calc(100% - 2px);"
+                ></blockquote>
+                <script async src="//www.instagram.com/embed.js"></script>
+            </div>
+        {{ else if eq .type "self-hosted" }}
+            <!-- Self-hosted Video -->
+            <div class="relative w-full max-w-full">
+                <video 
+                    class="w-full h-auto"
+                    {{ if .autoplay }}autoplay{{ end }}
+                    {{ if .muted }}muted{{ end }}
+                    {{ if .loop }}loop{{ end }}
+                    controls
+                    playsinline
+                    {{ with .poster }}poster="{{ . | absURL }}"{{ end }}
+                >
+                    {{ with .video_url }}
+                    <source src="{{ . | absURL }}" type="video/mp4">
+                    {{ end }}
+                    {{ with .video_webm }}
+                    <source src="{{ . | absURL }}" type="video/webm">
+                    {{ end }}
+                    Din nettleser støttar ikkje video-taggen.
+                </video>
+            </div>
+        {{ end }}
+    {{ end }}
+    
+    {{ with .caption }}
+    <div class="container mx-auto px-4 py-8 max-w-prose">
+        <div class="text-white text-center">
+            <p class="text-lg md:text-xl">{{ . }}</p>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
