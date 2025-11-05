@@ -221,8 +221,11 @@ def main():
     posts = updater.fetch_posts()
     
     if not posts:
-        print("❌ No posts fetched. Using existing configuration.")
-        return 1
+        print("⚠️  No posts fetched. Keeping existing configuration.")
+        print("ℹ️  To update Instagram posts, use the Instagram Basic Display API")
+        print("ℹ️  or manually update data/instagram.yaml")
+        # Return 0 (success) to not fail the workflow - existing config is fine
+        return 0
     
     print(f"📥 Fetched {len(posts)} posts")
     
