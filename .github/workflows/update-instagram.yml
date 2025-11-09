@@ -31,15 +31,9 @@ jobs:
         run: |
           python scripts/update_instagram.py
           
-      - name: Commit changes
+      - name: Commit and push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add data/instagram.yaml
-          git diff --staged --quiet || git commit -m "🤖 Auto-update Instagram feed"
-          
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          git diff --staged --quiet || (git commit -m "🤖 Auto-update Instagram feed" && git push)
